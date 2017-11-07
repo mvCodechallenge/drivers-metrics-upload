@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"bufio"
 	"time"
-	"CodeChallenge/DriversMetricsImporter/utils/config"
-	"CodeChallenge/DriversMetricsImporter/utils/log"
+	"drivers-metrics-upload/utils/config"
+	"drivers-metrics-upload/utils/log"
 )
 
 var (

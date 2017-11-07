@@ -1,11 +1,11 @@
 package main
 
 import (
-	"CodeChallenge/DriversMetricsImporter/utils/config"
-	"CodeChallenge/DriversMetricsImporter/utils/net/http"
-	"CodeChallenge/DriversMetricsImporter/utils/log"
-	"CodeChallenge/DriversMetricsImporter/data-providers"
-	"CodeChallenge/DriversMetricsImporter/models"
+	"drivers-metrics-upload/utils/config"
+	"drivers-metrics-upload/utils/net/http"
+	"drivers-metrics-upload/utils/log"
+	"drivers-metrics-upload/data-providers"
+	"drivers-metrics-upload/models"
 )
 
 /*

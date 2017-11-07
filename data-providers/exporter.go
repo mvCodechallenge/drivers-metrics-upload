@@ -3,9 +3,9 @@ package data_providers
 import (
 	"database/sql"
 	_ "github.com/lib/pq"
-	"CodeChallenge/DriversMetricsImporter/utils/config"
-	"CodeChallenge/DriversMetricsImporter/utils/log"
-	"CodeChallenge/DriversMetricsImporter/models"
+	"drivers-metrics-upload/utils/config"
+	"drivers-metrics-upload/utils/log"
+	"drivers-metrics-upload/models"
 	"fmt"
 )
 

@@ -7,7 +7,7 @@ package log
 import (
 	"time"
 	"fmt"
-	"CodeChallenge/DriversMetricsImporter/utils/config"
+	"drivers-metrics-upload/utils/config"
 	"strings"
 	"os"
 )
