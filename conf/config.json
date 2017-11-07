@@ -1,0 +1,7 @@
+{
+  "logLevel" : "Info",
+  "httpRequestTimeout" : 30000,
+  "driversURL": "https://raw.githubusercontent.com/gtforge/CodeChallenge/master/drivers.json",
+  "metricsURL": "https://raw.githubusercontent.com/gtforge/CodeChallenge/master/metrics.json",
+  "dbConnectionString": "postgres://postgres:password@localhost/CodeChallenge?sslmode=disable"
+}
