@@ -1,0 +1,3 @@
+package: drivers-metrics-upload
+import:
+- package: github.com/lib/pq

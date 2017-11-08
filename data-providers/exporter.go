@@ -7,6 +7,7 @@ import (
 	"drivers-metrics-upload/utils/log"
 	"drivers-metrics-upload/models"
 	"fmt"
+	"os"
 )
 
 var (
@@ -21,8 +22,14 @@ var (
 */
 func init() {
 	appConfig = config.GetAppConfiguration();
-	dbConnectionString := appConfig["dbConnectionString"].(string);
-	db, err := sql.Open("postgres", dbConnectionString)
+
+	// Take from heroku app engine, if missing take local DB
+	connectionString := os.Getenv("DATABASE_URL");
+	if (connectionString == "") {
+		connectionString = appConfig["dbConnectionString"].(string);
+	}
+
+	db, err := sql.Open("postgres", connectionString)
 	if (err != nil) {
 		panic(err)
 	}
