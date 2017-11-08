@@ -1,6 +1,7 @@
 <component name="libraryTable">
   <library name="GOPATH &lt;drivers-metrics-upload&gt;">
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/../drivers-metrics-api" />
       <root url="file://$PROJECT_DIR$/../CodeChallenge" />
       <root url="file://$PROJECT_DIR$/../.idea" />
       <root url="file://$PROJECT_DIR$/../samples" />
@@ -10,6 +11,7 @@
       <root url="file://$PROJECT_DIR$/../hello" />
     </CLASSES>
     <SOURCES>
+      <root url="file://$PROJECT_DIR$/../drivers-metrics-api" />
       <root url="file://$PROJECT_DIR$/../CodeChallenge" />
       <root url="file://$PROJECT_DIR$/../.idea" />
       <root url="file://$PROJECT_DIR$/../samples" />
